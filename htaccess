@@ -1,0 +1,12 @@
+ErrorDocument 403 /404.html
+ErrorDocument 404 /404.html
+
+DirectoryIndex page30683597.html
+
+RewriteEngine On
+
+RewriteRule ^pools$ page30683597.html [NC]
+RewriteRule ^pools/$ page30683597.html [NC]
+
+RewriteRule ^favicon.ico$ https://static.tildacdn.com/img/tildafavicon.ico [R=302,L]
+
